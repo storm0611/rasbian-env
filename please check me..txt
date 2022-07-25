@@ -1,0 +1,13 @@
+touch start-chromium.sh
+nano start-chromium.sh
+
+#!/bin/bash
+echo "Starting chromium in 5 seconds..."
+sleep 5
+chromium --noerrdialogs --kiosk http://127.0.0.1:5000/index &
+
+Ctrl+x
+y
+(enter)- to save
+
+chmod u+x start-chromium.sh

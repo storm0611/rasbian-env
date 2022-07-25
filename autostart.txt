@@ -1,0 +1,19 @@
+#@lxpanel --profile LXDE-pi
+#@pcmanfm --desktop --profile LXDE-pi
+
+@xscreensaver -no-splash
+#@point-rpi
+
+@xset s off
+@xset -dpms
+@xset s noblank
+@python /home/pi/Desktop/Flask/hello.py
+#@chromium-browser --incognito --start-maximized --kiosk http://127.0.0.1:5000/index
+#@chromium-browser --incognito --kiosk http://127.0.0.1:5000/index
+@/home/pi/start-chromium.sh
+
+
+Enjoy!
+And I just wanted to discuss my business idea for both of us.
+Please discuss on whtsapp. +62887433243859
+I will wait, kind friend. :)
